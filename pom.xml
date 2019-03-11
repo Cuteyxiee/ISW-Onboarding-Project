@@ -62,5 +62,31 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+			<profile>
+				<id>myMavenRepo</id>
+				<activation>
+					<property>
+						<name>MyMavenRepo</name>
+					</property>
+				</activation>
+				<properties>
+					<myMavenRepoReadUrl>https://mymavenrepo.com/repo/IpKujjopcyQnJDRjfoIk/</myMavenRepoReadUrl>
+					<myMavenRepoWriteUrl>https://mymavenrepo.com/repo/5R84am5cw4QM9GqzpcvH/</myMavenRepoWriteUrl>
+				</properties>
+			</profile>
+		</profiles>
+	<repositories>
+			<repository>
+				<id>myMavenRepo.read</id>
+				<url>https://mymavenrepo.com/repo/IpKujjopcyQnJDRjfoIk/ </url>
+			</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/5R84am5cw4QM9GqzpcvH/</url>
+		</repository>
+	</distributionManagement>
 
 </project>
