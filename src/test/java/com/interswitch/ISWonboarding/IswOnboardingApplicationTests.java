@@ -1,4 +1,4 @@
-package com.interswitch.ISWOnboarding;
+package com.interswitch.ISWonboarding;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.interswitch.ISWOnboarding;
+package com.interswitch.ISWonboarding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
